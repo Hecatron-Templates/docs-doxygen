@@ -1,0 +1,12 @@
+# Documentation
+
+sphinx
+recommonmark
+sphinx-markdown-tables
+sphinx-autobuild
+sphinx-issues
+breathe
+ghp-import
+doxypypy
+git+https://github.com/Hecatron-Forks/sphinxbootstrap4theme
+pypandoc
