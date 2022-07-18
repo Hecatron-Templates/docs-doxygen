@@ -8,6 +8,15 @@ This is the part of the docs that turns sourcecode into markdown.
 
 ## Usage
 
+First enter / setup the python virtual environment
+```sh
+cd virtenv
+# Under Linux
+setup_venv.sh
+# Under Windows
+setup_venv.bat
+```
+
 TODO
 
 ## Requirements
