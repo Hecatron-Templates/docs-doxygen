@@ -10,6 +10,7 @@ def get_path(dirpath):
     return destpath
 
 # Setup sphinx options
+# https://www.sphinx-doc.org/en/master/man/sphinx-build.html
 opts = []
 
 # Set for outputing to markdown
