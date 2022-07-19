@@ -5,9 +5,20 @@ project = 'dummy'
 copyright = '2022, dummy'
 author = 'dummy'
 
-# Add any Sphinx extension module names here, as strings. They can be
-# extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
-# ones.
+# Sphinx Extensions
 extensions = [
-    #'breathe'
+    'myst_parser',
+    'breathe'
 ]
+
+# Enable processing of markdown files
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
+}
+
+# Add breathe support for reading in Doxygen content
+breathe_projects = {
+    'template_project':'../doxygen/build/xml'
+}
+breathe_default_project = 'template_project'
