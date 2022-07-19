@@ -2,29 +2,22 @@
 
 Copier template for project based documenation.
 This template uses doxygen to generate xml files from source.  
-The xml files are then parsed by spinx / [breathe](https://breathe.readthedocs.io/en/latest/) into markdown.  
+The xml files are then parsed by spinx / [breathe](https://breathe.readthedocs.io/en/latest/) into html.  
 
-This is the part of the docs that turns sourcecode into markdown.
+This can then be extracted for use with other static site generators (such as docusaurus).  
+One of the advantages docusaurus has over sphinx is that it's an SPA so the pages load quicker.
 
-## Usage
+## Other options
 
-First enter / setup the python virtual environment
-```sh
-cd virtenv
-# Under Linux
-setup_venv.sh
-# Under Windows
-setup_venv.bat
-```
+Some of the other options for converting doxygen XML to markdown include
 
-TODO
+  * https://github.com/vstakhov/doxydown
+  * https://github.com/pferdinand/doxygen2md
+  * https://github.com/sourcey/moxygen
+  * https://github.com/matusnovak/doxybook2
+  * https://github.com/matusnovak/doxybook
 
-## Requirements
+However they don't seem to have gotten as much attention as breathe
 
-  * doxygen needs to be installed and visible on the Path
-    (under windows with would be C:\Program Files\doxygen\bin)
-  * tox needs to be installed within python
-
-```sh
-pip install tox
-```
+  * https://github.com/michaeljones/breathe
+  * https://pypi.org/project/exhale/

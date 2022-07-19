@@ -1,0 +1,10 @@
+_exclude:
+    - ".git"
+    - "Readme.md"
+    - "Usage.md"
+    - "Install.md"
+    - "docs-doxygen.code-workspace"
+    - "virtenv/pydev-env"
+    - "virtenv/.tox"
+    - "template-project"
+    - "docs/doxygen/xml-build"
