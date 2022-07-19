@@ -3,6 +3,7 @@
 sphinx
 recommonmark
 sphinx-markdown-tables
+sphinx-markdown-builder
 sphinx-autobuild
 sphinx-issues
 breathe
