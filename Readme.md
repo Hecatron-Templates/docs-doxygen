@@ -21,3 +21,9 @@ However they don't seem to have gotten as much attention as breathe
 
   * https://github.com/michaeljones/breathe
   * https://pypi.org/project/exhale/
+
+As far as integration with static site generators other than Sphinx there's some more info here.
+
+  * https://github.com/facebook/docusaurus/issues/1059
+  * https://github.com/pytorch/botorch/blob/main/scripts/build_docs.sh
+
