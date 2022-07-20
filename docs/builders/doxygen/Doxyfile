@@ -1084,7 +1084,8 @@ INPUT_FILTER           =
 
 #FILTER_PATTERNS        =
 # Added for parsing python code with google style code docs
-FILTER_PATTERNS        = *.py=py_filter
+# disabled due to https://github.com/Feneric/doxypypy/issues/85
+# FILTER_PATTERNS        = *.py=py_filter
 
 # If the FILTER_SOURCE_FILES tag is set to YES, the input filter (if set using
 # INPUT_FILTER) will also be used to filter the input files that are used for

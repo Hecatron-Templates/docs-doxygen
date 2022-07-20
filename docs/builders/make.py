@@ -65,7 +65,7 @@ class DocsBuild(object):
         '''Regenerate the xml files exported from doxygen, these are used by sphinx breathe'''
         self.run_cmd(['doxygen'], self.DOXYGENDIR)
         # Filter the xml for the types of parameters
-        self.run_cmd(['python', 'filter_types.py'], self.DOXYGENDIR)
+        #self.run_cmd(['python', 'filter_types.py'], self.DOXYGENDIR)
 
 
 

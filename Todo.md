@@ -1,7 +1,13 @@
 # Todo
 
+  * doxypypy seems to have issues within doxygen
+    https://github.com/Feneric/doxypypy/issues/85
+    for now this is disabled `FILTER_PATTERNS        = *.py=py_filter`
+    This might be obseleted anyways via https://github.com/Feneric/doxypypy/issues/88
+
   * Add exclusions to copier.yaml
   * is filter_types.py still needed?
+
   * docs\doxygen\Doxyfile - template the following
 
 ```
@@ -22,11 +28,11 @@ So for building the docs as an option
 2. Second method is to parse all the markdown via sphinx for outputs such as man pages etc or non html formats
 
 
-1. Doxygen xml generated
-2. Input markdown file which specifies a class, ideally from /docs/content/api
-3. Sphinx then parses this using Brethe to output some content
-4. Also we may be able use "exhale" for tree views of the api
-5. Sphinx can output in different formats using builder extensions
+3. Doxygen xml generated
+4. Input markdown file which specifies a class, ideally from /docs/content/api
+5. Sphinx then parses this using Brethe to output some content
+6. Also we may be able use "exhale" for tree views of the api
+7. Sphinx can output in different formats using builder extensions
 
 At this stage we now need to output or get to a format that can be imported into Docusarus
 maybe markdown?
@@ -40,3 +46,6 @@ https://stackoverflow.com/questions/45633709/how-to-convert-rst-files-to-md
 
 This might work better
 https://github.com/clayrisser/sphinx-markdown-builder
+
+
+Current output isn't perfect yet

@@ -7,7 +7,7 @@ at the bottom should be the class members listed via the breathe extension
 
 ```{eval-rst}
 
-.. doxygenclass:: template_project::test1::TestClass1
+.. doxygenclass:: template_project::test1::Test1Class
   :members:
 
 ```

@@ -11,6 +11,13 @@ extensions = [
     'breathe'
 ]
 
+# Myst markdown parser
+# https://myst-parser.readthedocs.io/en/latest/configuration.html
+# Todo
+#myst_enable_extensions = [
+#    "colon_fence",
+#]
+
 # Enable processing of markdown files
 source_suffix = {
     '.rst': 'restructuredtext',
